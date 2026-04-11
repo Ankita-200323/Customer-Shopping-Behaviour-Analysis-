@@ -17,11 +17,15 @@ By analyzing customer demographics, purchase behavior, and promotional influence
 
 ### 📂 Dataset Overview 
 
-The dataset used in this project is Customer Shopping Patterns, which contains information about customer demographics and purchasing behavior.
-- Rows: 3,900 , Columns: 18 - 
-- Key Features: Customer demographics (Age, Gender, Location, Subscription Status) - Purchase details (Item Purchased, Category, Purchase Amount, Season, Size, Color) - Shopping behavior (Discount Applied, Promo Code Used, Previous Purchases, Frequency of Purchases, Review Rating, Shipping Type).
-- Missing Data: 37 values in Review Rating column.
+- Dataset: Customer Shopping Patterns
+- Records: 3,900 rows, 18 columns
+  
+Key Features:
+- Customer demographics: Age, Gender, Location, Subscription Status
+- Purchase details: Item Purchased, Category, Purchase Amount, Season
+- Shopping behavior: Discount Applied, Promo Code Used, Previous Purchases, Frequency, Review Rating, Shipping Type
 
+- Data Quality:37 missing values in Review Rating column handled during preprocessing
 ### 🛠️ Technology Stack
 
 - Programming Language: Python
@@ -31,18 +35,19 @@ The dataset used in this project is Customer Shopping Patterns, which contains i
 ### 🔍 Insights
 
 1.Customer Demographics
- - Certain age groups purchase more frequently than others.
- - Adults and middle-aged customers contribute the most to revenue.
+ - Adults and middle-aged customers contribute the highest share of revenue.
+ - Younger customers show relatively lower purchase frequency.
 
 2.Discount Impact
- - Customers are more likely to purchase when discounts are applied.
+ - Customers using discounts exhibit higher-than-average purchase amounts.
  - Promotional strategies significantly influence buying behavior.
 
 3.Product Category Trends
- - Certain product categories show higher purchase frequency, indicating strong customer demand.
+ - Certain product categories consistently rank among the most purchased
+ - Highlights strong demand patterns and potential focus areas for marketing
 
 4.Purchase Frequency
- - Weekly and monthly buyers form the majority of the customer base.
+ - Weekly and monthly buyers form the majority of the customer base,which indicates strong repeat customer engagement.
 
 ### ✅ Results
 
@@ -50,17 +55,17 @@ The project successfully demonstrated how customer shopping data can be transfor
 
 Key outcomes include:
 
- - Clean and structured dataset ready for analysis
- - Customer segmentation based on demographics
- - Identification of purchase behavior patterns
- - Interactive Power BI dashboard for business decision-making
+- Cleaned and structured dataset for analysis
+- Identified key customer segments and purchasing patterns
+- Built an interactive dashboard for business decision-making
+- Derived insights to support targeted marketing and retention strategie
 
 This analysis helps businesses to:
 
- - Improve targeted marketing
- - Optimize promotional campaigns
- - Enhance product strategy
- - Increase customer engagement and sales.
+- Improve targeted marketing campaigns
+- Optimize discount and promotional strategies
+- Enhance product planning
+- Increase customer retention and revenue
 
 Since the Power BI dashboard is dynamic, the insights automatically update based on slicer selections, enabling flexible and segment-specific analysis of customer shopping behaviour.
 
