@@ -32,6 +32,12 @@ Key Features:
 - Data Storage and querying: MySQL (SQLAlchemy + PyMySQL for Python–SQL connection).
 - Visualization: Power BI
 
+### 📊 Dashboard Preview
+
+
+<img width="1142" height="636" alt="DASHBOARD IMG" src="https://github.com/user-attachments/assets/77809dfb-c456-40a8-beef-77eafdf3d849" />
+
+This dashboard provides an interactive view of customer segments, revenue trends, and purchasing behavior, enabling data-driven business decisions.
 ### 🔍 Insights
 
 1.Customer Demographics
